@@ -115,13 +115,13 @@ def setup_openstates():
     create_virtualenv(ENV)
 
     # Get openstates.
-    gitclone('git://github.com/sunlightlabs/openstates.git')
+    gitclone('git://github.com/dierbro/openstates.git')
 
     # Uninstall billy.
     run('%s uninstall billy' % pip)
 
     # Clone billy, get requirements, and run setup.py develop
-    gitclone('git://github.com/sunlightlabs/billy.git', 'develop')
+    gitclone('git://github.com/dierbro/billy.git')
 
 
 def setup_mysql():
