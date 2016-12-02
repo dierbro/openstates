@@ -40,7 +40,8 @@ class NJEventScraper(EventScraper, MDBMixin):
             'LSC': 'Legislative Services Commission',
             'THIE': 'Senate Task Force on Health Insurance Exchange Implementation Committee',
             'CASC': 'College Affordability Study Commission',
-            'CIR': 'State Commission of Investigation'
+            'CIR': 'State Commission of Investigation',
+            'TDWI': 'TDWI'
         }
         self._committees = overlay
 
